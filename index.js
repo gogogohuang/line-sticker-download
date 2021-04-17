@@ -1,4 +1,4 @@
-const config = require("./src/parseArgs");
+const args = require("./src/parseArgs");
 const downloadStickers = require("./src/download");
 
-downloadStickers(config);
+downloadStickers(args);

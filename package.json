@@ -8,7 +8,8 @@
   "author": "gogogohuang <gogogohuang@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start-download": "node index"
+    "start-download": "node index",
+    "parse-args" : "node src/parseArgs"
   },
   "dependencies": {
     "chalk": "^4.1.0",
