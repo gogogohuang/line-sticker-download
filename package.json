@@ -3,16 +3,22 @@
   "version": "1.0.0",
   "description": "download line sticker with own stickerid",
   "main": "index.js",
+  "bin": "cli.js",
   "repository": "git@github.com:gogogohuang/line-sticker-download.git",
   "author": "gogogohuang <gogogohuang@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start-download": "node index",
+    "parse-args" : "node src/parseArgs"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "image-downloader": "^4.0.2",
     "make-dir": "^3.1.0",
     "ora": "^5.4.0",
     "puppeteer": "^8.0.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "yargs": "^16.2.0"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
